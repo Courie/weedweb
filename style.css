@@ -1,9 +1,21 @@
 body {
-  background-color: gold;
-  color: blue;
-  font-size: 20px;
+  background-image: url(weed-walking.gif); 
+  background-size: 30px 30px; 
+  color: green;
+  font-size: 40px;
+  font-weight: 300;
+}
+div {
+ width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 50px;
+  background-color: black;
+  margin-left: 100px;
+  margin-top: 200px;
   
 }
 h1 {
   color: red;
 }
+
