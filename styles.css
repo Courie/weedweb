@@ -1,9 +1,9 @@
 /* You can either copy the below and paste it between style tags on your HTML page, OR you can copy this to a file and name it .css and link it from your HTML page. */
 :root {
-  --bg-color:#d7f8e5;
-  --border-color:#7c9b89;
-  --subtitle-color:#35a363;
-  --link-color:#18bc5a;
+  --bg-color: white;
+  --border-color: blue;
+  --subtitle-color: blue;
+  --link-color: ;
 }
 
 html, body {
@@ -11,7 +11,7 @@ html, body {
   padding:0;
   background-color:#a7efb8;
   background-attachment:fixed;
-  background-image:url('https://i.imgur.com/4x108uF.png');
+  background-image:url('4x108uF.png');
 }
 body a {
   color:var(--link-color);
@@ -19,7 +19,7 @@ body a {
 header {
   width:400px;
   height:400px;
-  background-image:url('https://i.imgur.com/lZZP1Md.png');
+  background-image:url('background2.jpg');
   background-size:103%;
   
 }
@@ -39,7 +39,7 @@ article {
   border:1px solid var(--border-color);
   margin-top:20px;
   max-width:370px;
-  margin-left:10px;
+  margin-left:200px;
   margin-right:10px;
   
 }
@@ -94,6 +94,7 @@ footer {
      flex-wrap:wrap;
      flex-direction:row;
    }
+  :
    .right {
      order:1;
      width:100%;
