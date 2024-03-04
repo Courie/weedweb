@@ -9,19 +9,26 @@
 html, body {
   margin:0;
   padding:0;
-  background-color:#a7efb8;
+  background-color: #D5D5D5/*#a7efb8*/;
   background-attachment:fixed;
-  background-image:url('4x108uF.png');
+  /* background-image:url('4x108uF.png'); */
 }
 body a {
   color:var(--link-color);
 }
-header {
+ /*header {
   width:400px;
   height:400px;
   background-image:url('background2.jpg');
   background-size:103%;
   
+} */
+.header {
+  width:100vh;
+  height:400px;
+  text-align: center;
+  background: white;
+  border: 1px solid var(--border-color)
 }
 .flex {
   display:flex;
@@ -30,7 +37,7 @@ header {
   background-color:var(--bg-color);
   max-width:250px;
   width:200px;
-  height:100vh;
+  height:90vh;
   border:1px solid var(--border-color);
   position:fixed;
 }
@@ -94,7 +101,7 @@ footer {
      flex-wrap:wrap;
      flex-direction:row;
    }
-  :
+  
    .right {
      order:1;
      width:100%;
